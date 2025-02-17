@@ -12,7 +12,7 @@ POST /point with body { "x": ..., "y": ... }
 GET /space
 ```
 - Get all line segments passing through at least N points. Note that a line segment should be a set of
-points. Choose all the point of the longest segment without its subset even if the condition is met.
+points. Choose all the points of the longest segment without its subset even if the condition is met.
 Points order is not important.
 ```
 GET /lines/{n}
@@ -22,7 +22,7 @@ GET /lines/{n}
 DELETE /space
 ```
 
-# Requiremens
+# Requirements
 - Java 18
 - Maven 3.8.6
 
